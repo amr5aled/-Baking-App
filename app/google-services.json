@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "737112108789",
+    "firebase_url": "https://project-169812.firebaseio.com",
+    "project_id": "project-169812",
+    "storage_bucket": "project-169812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737112108789:android:f9fef85ee1c150c6",
+        "android_client_info": {
+          "package_name": "com.example.mohamedabdelaziz.baking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737112108789-7j581tf6efkffg2cdier4ijk32a2hp0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgu8m3JIxNc9JTAhckQAf67XQm4KnXfXI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

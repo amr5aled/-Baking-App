@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Steps"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="16dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/steps_list"
+        android:name="com.example.amr5aled.baking.stepsListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="com.example.amr5aled.baking.stepsListActivity"
+        tools:listitem="@layout/steps_list_content">
+
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

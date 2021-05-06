@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Baking</string>
+    <string name="title_steps_list">Items</string>
+    <string name="title_steps_detail">steps Detail</string>
+    <string name="title_activity_ingredent">IngredentActivity</string>
+</resources>
